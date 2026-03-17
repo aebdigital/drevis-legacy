@@ -4,6 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Drevis",
   description: "Drevis mirror",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({
